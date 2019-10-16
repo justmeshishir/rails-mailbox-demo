@@ -1,0 +1,6 @@
+<% comments.each do |comment| %>
+<div>
+  <stong><%= comment.user.name %></stong> commented: <br/>
+  <%= simple_format comment.body  %>
+</div>
+<% end %>
